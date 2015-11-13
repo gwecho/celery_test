@@ -11,3 +11,4 @@ celery -A celery_tests worker -l info -Q celery_default,operation
 python app/add.py
 python app/hello.py
 
+

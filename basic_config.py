@@ -4,7 +4,7 @@ from kombu import Exchange, Queue
 CELERY_RESULT_BACKEND = 'mongodb://127.0.0.1:27020/'
 CELERY_MONGODB_BACKEND_SETTINGS = {
     'database':'celery',
-    'taskmeta_collection': 'my_taskmeta_collection',
+    'taskmeta_collection': 'celery_test_taskmeta_collection',
     'max_pool_size':10,
 }
 
